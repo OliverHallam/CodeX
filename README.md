@@ -25,7 +25,7 @@ The main goals of this project are to be:
 History
 -------
 
-The source code for this project originated as an internal tool which I developed in order to generate the [XmlPrime API documentation][2], and as a means for testing [XmlPrime][1] itself.  The source code has been kindly donated to me by my former employer.
+The source code for this project originated as an internal tool which was developed in order to generate the [XmlPrime API documentation][2], and as a means for testing [XmlPrime][1] itself.  The source code has been kindly donated to me by my former employer.
 
 [1]:http://www.xmlprime.com/
 [2]:http://www.xmlprime.com/doc/
