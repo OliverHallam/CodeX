@@ -12,6 +12,7 @@ Features
 The first official release of the product will be able to produce MSDN style documentation from XML code documentation tags (`///`) in C# projects (a la [Sandcastle][3]).  Configuration of the documentation will be performed directly from within Visual Studio.
 
 The main goals of this project are to be:
+
 - **Beautiful** documentation.
 - **Easy to use**.  You should be able to set up documentation for your product in 10 minutes.
 - **Flexible**.
