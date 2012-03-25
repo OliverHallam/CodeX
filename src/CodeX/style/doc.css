@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  background: #eee;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: Consolas "Bitstream Vera Sans Mono" "Courier New" Courier monospace;
+} 
+
+pre {
+  font-family: Consolas "Bitstream Vera Sans Mono" "Courier New" Courier monospace;
+} 
+
+h1 {
+  color: #3f529c;
+  font-size: 2em;
+}
+
+h2 {
+  color: #3f529c;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: #3f529c;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none outside;
+  width: 100%;
+} 
+
+.tabs li {
+  float: left;
+  display: block;
+  font-weight: bold;
+  background: #eff5ff;
+  border: 1px solid silver;
+  border-bottom: none;
+  padding: .5em;
+} 
+
+.tabs li a {
+  color: #1364c4;
+} 
+
+.tabs li a:hover {
+  text-decoration: none;
+  color: #e66a38;
+} 
+
+.tabs li.active {
+  background: white;
+  border-bottom: 2px solid white;
+  margin-bottom: -2px;
+} 
+
+.tabs .active a {
+  color: #e66a38;
+}
+
+.syntax {
+  clear: both;
+}
+
+#footer {
+  padding: 1em;
+  border-top: 1px solid silver;
+}
+
+#navigation {
+  background: white;
+  float: left;
+  border-right: 1px solid silver;
+  overflow: hidden;
+  width: 20em;
+  text-align: left;
+  margin-right: -1px;
+  font-size: 0.9em;
+} 
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} 
+
+#topic {
+  background: white;
+  font-size: 0.9em;
+  overflow: auto;
+  text-align: left;
+  border-left: 1px solid silver;
+} 
+
+#topic table {
+  border: 1px solid silver;
+  border-collapse: collapse;
+} 
+
+#topic th {
+  background-color: #e0e0e0;
+  border: 1px solid silver;
+  font-weight: normal;
+  padding: 4px;
+} 
+
+#topic td {
+  line-height: 140%;
+  margin: 1px;
+  padding: 4px;
+  border: 1px solid silver;
+} 
+
+#navigation-content {
+  padding: 1em;
+} 
+
+#topic-content {
+  padding: 1em 2em;
+} 
+
+#topic .code {
+  background: white;
+  border: solid silver;
+  border-width: 2px 1px;
+  padding: 0em 2em;
+}
+
+#dropdown {
+  color: #5d5d5d;
+}
+
+.keyword {
+  color: blue;
+}
+
+.nav-ancestor 
+{
+  white-space: nowrap;
+}
+
+.nav-self {
+  margin-left: 1em;
+  font-weight: bold;
+  color: #e66a38;
+  white-space: nowrap;
+} 
+
+.nav-child {
+  margin-left: 2em;
+  white-space: nowrap;
+} 
+
+.cpp {
+  display: none;
+} 
+
+.fs {
+  display: none;
+} 
+
+.keyword {
+  color: #3f529c;
+} 
+
+#dropdown {
+  height: 2em;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+} 
+
+#dropdown li {
+  float: left;
+  position: relative;
+  padding-right: 1em;
+} 
+
+#dropdown li ul {
+  display: none;
+  position: absolute;
+  top: 1em;
+  left: 0;
+  width: 7em;
+  background: white;
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  border: 1px solid silver;
+} 
+
+#dropdown li ul li {
+  float: none;
+} 
+
+#dropdown li:hover ul {
+  display: block;
+} 
+
+.inheritance {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+} 
+
+.containers {
+  list-style-type: none;
+  margin: 1em 0;
+  padding: 0;
+} 
+
+.section {
+  margin: 1em 0;
+} 
+
+.ui-resizable {
+  position: relative;
+} 
+
+.ui-resizable-handle {
+  position: absolute;
+} 
+
+.ui-resizable-e {
+  cursor: e-resize;
+  width: 12px;
+  right: 0;
+  top: 0;
+  height: 100%;
+} 
+
+dt {
+  margin-top: .5em;
+} 
+
+.parameter-type {
+  margin: 0;
+} 
+
+.icon-column {
+  width: 40px;
+} 
+
+.members img {
+  width: 16px;
+  height: 16px;
+} 
+
+.fictitiousUri {
+  font-style: italic;
+} 
+
+.application {
+	font-weight: bold;
+}
+
+.command {
+	font-family: monospace;
+}
+
+.literal {
+	font-family: monospace;
+	/* this has not been checked. */
+}
+
+.localUri {
+	font-style: italic;
+}
+
+.replaceable {
+	font-style: italic;
+}
+
+.system {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.alert
+{
+  background: #fcfec5;
+  border: 1px solid #bbb;
+  margin: .5em 0;
+  padding: .5em;
+}
+
+.note-title
+{
+  background: url(../icons/note.gif) center left no-repeat;
+  padding-left: 18px;
+  font-weight: bold;
+  margin: 0 0 .5em;
+}
+
+.caution-title
+{
+  background: url(../icons/caution.gif) center left no-repeat;
+  padding-left: 18px;
+  font-weight: bold;
+  margin: 0 0 .5em;
+}
+
+.language-title
+{
+  background: url(../icons/note.gif) center left no-repeat;
+  padding-left: 18px;
+  font-weight: bold;
+  margin: 0 0 .5em;
+}
+
+.code-entity
+{
+    white-space: nowrap;
+}
+
+.self-link
+{
+    white-space: nowrap;
+}
+
+.nobullet
+{
+    padding-left: 0;
+    margin: 0;
+}
+
+.nobullet li
+{
+    list-style-type: none;
+}
